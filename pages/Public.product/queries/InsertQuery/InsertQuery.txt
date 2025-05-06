@@ -1,0 +1,12 @@
+INSERT INTO public."product" (
+	"name",
+	"description",
+	"price",
+	"stock_quantity",
+	"created_at")
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.description}}',
+	'{{insert_form.formData.price}}',
+	'{{insert_form.formData.stock_quantity}}',
+	'{{insert_form.formData.created_at}}');
